@@ -44,7 +44,7 @@ const displayData = data => {
                 <img class="card-img-top" src="${element.strMealThumb}"/>
                 <div class="card-body text-center">
                     <h5 class="card-title mx-auto ">${element.strMeal}</h5>
-                    <button onclick="ingredientDetails('${element.strMeal}')" class="bg-warning text-dark p-2">Ingredients</button>
+                    <a class="link" onclick="ingredientDetails('${element.strMeal}')">Ingredients</a>
                 </div>
             </div>
         </div> `;

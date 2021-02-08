@@ -6,3 +6,9 @@ body {
     display: none ;
     width: 450px;
   }
+
+  .link{
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
